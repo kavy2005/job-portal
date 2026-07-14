@@ -62,7 +62,7 @@ export default function CompanyDashboard() {
             <div>
               <p className="font-display font-semibold text-ink">{job.title}</p>
               <p className="text-sm text-ink/50 mt-0.5">
-                {job.location || "Remote"} \u00b7 {job.jobType?.replace("-", " ")}
+                {job.location || "Remote"} · {job.jobType?.replace("-", " ")}
               </p>
             </div>
             <span className="font-mono text-xs text-ink/40">
