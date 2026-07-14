@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #FAF8F3;
+  color: #16233F;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.ticket-notch {
+  position: relative;
+}
+
+.ticket-notch::before,
+.ticket-notch::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #FAF8F3;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ticket-notch::before {
+  left: -10px;
+}
+
+.ticket-notch::after {
+  right: -10px;
+}
+
+.perforated {
+  background-image: repeating-linear-gradient(to bottom, #D9D4C7 0, #D9D4C7 6px, transparent 6px, transparent 14px);
+  width: 1px;
+}
+
+*:focus-visible {
+  outline: 2px solid #F2A93B;
+  outline-offset: 2px;
+}
