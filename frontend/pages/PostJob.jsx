@@ -112,7 +112,7 @@ export default function PostJob() {
         <div className="grid grid-cols-2 gap-4">
           <div>
             <label className="block text-xs font-mono uppercase tracking-wider text-ink/50 mb-1.5">
-              Min salary (\u20b9)
+              Min salary (₹)
             </label>
             <input
               type="number"
@@ -124,7 +124,7 @@ export default function PostJob() {
           </div>
           <div>
             <label className="block text-xs font-mono uppercase tracking-wider text-ink/50 mb-1.5">
-              Max salary (\u20b9)
+              Max salary (₹)
             </label>
             <input
               type="number"

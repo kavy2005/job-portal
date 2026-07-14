@@ -76,7 +76,7 @@ export default function Login() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full border border-line rounded-md px-3 py-2 text-ink focus:outline-none focus:border-amber transition-colors"
-              placeholder="\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022"
+              placeholder="••••••••"
             />
           </div>
 

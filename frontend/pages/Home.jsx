@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
         <p className="text-ink/60 mt-4 max-w-md mx-auto">
           Browse open roles, apply in a click, and track every application
-          like a departure board \u2014 no spreadsheets required.
+          like a departure board — no spreadsheets required.
         </p>
         <div className="flex items-center justify-center gap-3 mt-8">
           <Link
