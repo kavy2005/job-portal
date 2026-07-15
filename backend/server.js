@@ -15,6 +15,7 @@ app.get("/api/health", (req, res) => {
 });
 
 app.use("/api/auth", require("./routes/authRoutes"));
+app.use("/api/users", require("./routes/userRoutes"));
 
 // Routes to be added next:
 app.use("/api/jobs", require("./routes/jobRoutes"));
